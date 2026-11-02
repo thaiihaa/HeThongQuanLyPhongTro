@@ -1,0 +1,14 @@
+-- JDBC (Java) KHÔNG dùng Shared Memory như sqlcmd/SSMS mặc định.
+-- Cần bật TCP/IP (hoặc Named Pipes) trong SQL Server Configuration Manager.
+--
+-- Cách thủ công (khuyến nghị):
+-- 1. Mở "SQL Server Configuration Manager"
+-- 2. SQL Server Network Configuration > Protocols for MSSQLSERVER
+-- 3. Bật "TCP/IP" (Enable)
+-- 4. TCP/IP > Properties > IPAll > TCP Port = 1433 (nếu trống)
+-- 5. Khởi động lại dịch vụ "SQL Server (MSSQLSERVER)"
+--
+-- Kiểm tra sau khi bật (PowerShell):
+--   netstat -ano | findstr ":1433"
+--
+-- Trên máy hiện tại (đã đọc registry): TcpPort=1433 nhưng protocol TCP/IP đang Disabled.

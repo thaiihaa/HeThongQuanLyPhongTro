@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Ảnh phòng trọ mặc định">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6eee6"/>
+      <stop offset="1" stop-color="#d5e0d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#background)"/>
+  <path d="M0 448h960v152H0z" fill="#c6d3c8"/>
+  <path d="M185 448V260l295-176 295 176v188" fill="#f7f8f2"/>
+  <path d="M145 266 480 64l335 202-24 39-311-187-311 187z" fill="#78917d"/>
+  <path d="M267 448V315h176v133" fill="#dbe5dc"/>
+  <path d="M502 448V298h174v150" fill="#b9c9bc"/>
+  <path d="M532 328h115v120H532z" fill="#eaf0e8"/>
+  <path d="M480 315v133" stroke="#90a591" stroke-width="8"/>
+  <circle cx="480" cy="210" r="44" fill="#edf2eb" opacity=".8"/>
+  <text x="480" y="528" fill="#536b58" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">Chưa có ảnh phòng</text>
+</svg>

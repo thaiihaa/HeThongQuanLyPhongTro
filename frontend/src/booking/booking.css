@@ -1,0 +1,41 @@
+.booking-page{max-width:1440px;margin:0 auto;padding:32px 36px 56px;color:#172b4d}
+.booking-heading,.booking-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px}
+.booking-heading h1,.booking-form h2,.booking-section-heading h2{margin:5px 0 8px;font-size:clamp(24px,3vw,32px);letter-spacing:-.04em}
+.booking-heading p{margin:0;color:#718096}
+.booking-eyebrow{color:#5878d7;font-size:11px;font-weight:800;letter-spacing:.12em}
+.booking-search{display:grid;gap:7px;min-width:min(340px,100%);color:#61718a;font-size:12px;font-weight:700}
+.booking-search input,.booking-search select,.booking-form input,.booking-form textarea{width:100%;border:1px solid #dce4ef;border-radius:10px;background:#fff;padding:11px 12px;color:#172b4d;font:inherit;outline:none}
+.booking-search input:focus,.booking-search select:focus,.booking-form input:focus,.booking-form textarea:focus{border-color:#7794ed;box-shadow:0 0 0 3px #7794ed24}
+.room-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.room-card{display:flex;flex-direction:column;min-height:250px;padding:22px;border:1px solid #e3eaf3;border-radius:16px;background:#fff;box-shadow:0 8px 24px #20375a08}
+.room-card-image{display:block;width:calc(100% + 44px);height:180px;margin:-22px -22px 18px;object-fit:cover;border-radius:16px 16px 0 0;background:#e6eee6}
+.room-gallery-button{align-self:flex-start;margin:0 0 12px;padding:0;border:0;color:#486bd6;background:transparent;font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.room-gallery-button:hover{text-decoration:underline}
+.room-card-top,.room-card-bottom,.room-facts{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.room-type,.room-vacancy{border-radius:999px;padding:6px 10px;font-size:11px;font-weight:750}
+.room-type{background:#f1f4fb;color:#576781}.room-vacancy{background:#e9f8f1;color:#258253}
+.room-card h2{margin:18px 0 2px;font-size:24px}.room-site{margin:0;font-weight:700}.room-address{margin:5px 0;color:#718096;font-size:13px}
+.room-facts{justify-content:flex-start;margin:12px 0;color:#66758d;font-size:13px}.room-description{margin:0 0 12px;color:#718096;font-size:13px}
+.room-card-bottom{margin-top:auto;padding-top:14px;border-top:1px solid #edf1f6}.room-card-bottom strong{color:#3559c7;font-size:18px}.room-card-bottom small{margin-left:4px;color:#8490a3;font-size:11px;font-weight:500}
+.room-readonly{color:#8490a3;font-size:11px;font-weight:650;text-align:right}
+.booking-primary{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:9px;padding:10px 14px;background:#486bd6;color:#fff;font:inherit;font-size:13px;font-weight:750;text-decoration:none;cursor:pointer}
+.booking-primary:hover{background:#3559c7}.booking-primary:disabled,.booking-action:disabled{opacity:.6;cursor:wait}
+.booking-empty{padding:26px;border:1px dashed #d6dfeb;border-radius:12px;color:#748197;text-align:center}
+.booking-alert{margin:14px 0;padding:12px 15px;border-radius:10px;font-size:13px}.booking-alert.success{background:#e9f8f1;color:#21764c}.booking-alert.error{background:#fff0ef;color:#a33a35}
+.booking-form{margin:0 0 28px;padding:22px;border:1px solid #dfe7f2;border-radius:16px;background:#f9fbff}
+.booking-form-heading{display:flex;justify-content:space-between;align-items:flex-start}.booking-form h2{font-size:22px}
+.booking-close{border:0;background:transparent;color:#66758d;font-size:28px;cursor:pointer}
+.booking-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.booking-form-grid label{display:grid;gap:7px;color:#53637c;font-size:12px;font-weight:700}.booking-form .booking-note{grid-column:1/-1}
+.booking-form .booking-primary{margin-top:16px}
+.tenant-bookings{margin-top:48px}.booking-section-heading{align-items:center;margin-bottom:16px}.booking-section-heading h2{font-size:23px}
+.booking-table-wrap{overflow:auto;border:1px solid #e3eaf3;border-radius:14px;background:#fff}
+.booking-table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}.booking-table th{padding:13px 15px;background:#f6f8fc;color:#64738b;font-size:11px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+.booking-table td{padding:14px 15px;border-top:1px solid #edf1f6;vertical-align:middle}.booking-table td small{display:block;margin-top:4px;color:#8390a3;font-size:11px}
+.booking-status{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:750;white-space:nowrap}
+.booking-plan{display:inline-flex;border-radius:999px;padding:6px 9px;background:#edf1f7;color:#576781;font-size:11px;font-weight:750;white-space:nowrap}
+.booking-plan.premium{background:#fff1cf;color:#8b5b00}
+.status-cho_xac_nhan{background:#fff5dc;color:#8b6714}.status-da_xac_nhan{background:#e9f8f1;color:#21764c}.status-da_huy{background:#fff0ef;color:#a33a35}.status-hoan_tat{background:#edf1f7;color:#576781}
+.booking-actions{display:flex;gap:6px;flex-wrap:wrap}.booking-action{border:0;border-radius:7px;padding:7px 9px;font:inherit;font-size:11px;font-weight:750;cursor:pointer}
+.booking-action.approve,.booking-action.complete{background:#e9f8f1;color:#21764c}.booking-action.reject{background:#fff0ef;color:#a33a35}
+@media(max-width:700px){.booking-page{padding:24px 16px 40px}.booking-heading{align-items:stretch;flex-direction:column}.booking-search{min-width:0}.booking-form-grid{grid-template-columns:1fr}.booking-form .booking-note{grid-column:auto}.room-grid{grid-template-columns:1fr}}

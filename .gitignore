@@ -1,0 +1,13 @@
+.env
+*.log
+.idea/
+.vs/
+.vscode/
+node_modules/
+dist/
+target/
+/backend/mssql-jdbc_auth-*.dll
+/backend/uploads/
+uploads/
+tools/apache-maven-*/
+!tools/.gitkeep

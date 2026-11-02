@@ -1,0 +1,64 @@
+.tenant-room-page .work-heading{align-items:flex-end}
+.tenant-room-secondary-link,.tenant-room-actions>a{display:inline-flex;align-items:center;gap:7px;color:#426c4d;font-size:11px;font-weight:700;text-decoration:none}
+.tenant-room-secondary-link{padding:10px 12px;border:1px solid #d5dfd3;border-radius:6px;background:#fbfcf8}
+.tenant-room-retry{display:inline-flex;align-items:center;gap:6px;margin-left:auto;border:0;color:#864d3b;background:transparent;font:inherit;font-weight:700;cursor:pointer}
+.tenant-room-retry:disabled{opacity:.6;cursor:wait}
+.tenant-room-state{display:flex;align-items:center;justify-content:center;gap:10px}
+.tenant-room-overview{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);overflow:hidden;border:1px solid #dfe4db;border-radius:9px;background:#fbfcf8}
+.tenant-room-hero{position:relative;min-height:360px;background:#e8ede7}
+.tenant-room-hero-placeholder,.tenant-room-hero-image,.tenant-room-hero-image img{display:block;width:100%;height:100%;min-height:360px}
+.tenant-room-hero-placeholder,.tenant-room-hero-image img{object-fit:cover}
+.tenant-room-hero-image{position:relative;padding:0;border:0;background:transparent;cursor:zoom-in}
+.tenant-room-photo-hint{position:absolute;right:13px;bottom:13px;padding:7px 9px;border-radius:4px;color:#fff;background:#14251dcc;font-size:10px}
+.tenant-room-carousel-controls{position:absolute;right:14px;top:14px;display:flex;align-items:center;gap:8px;padding:5px;border-radius:22px;color:#fff;background:#15251dba;font-size:10px}
+.tenant-room-carousel-controls button{display:grid;width:29px;height:29px;place-items:center;border:0;border-radius:50%;color:#fff;background:transparent;cursor:pointer}
+.tenant-room-carousel-controls button:hover{background:#ffffff25}
+.tenant-room-summary{align-self:center;padding:30px}
+.tenant-room-status{display:inline-block;padding:6px 8px;border:1px solid #c9dbc6;border-radius:4px;color:#426d49;background:#edf5eb;font-family:'DM Mono',Consolas,monospace;font-size:9px;font-weight:700}
+.tenant-room-summary h2{margin:14px 0 9px;color:#203329;font-size:27px}
+.tenant-room-site{display:flex;align-items:center;gap:7px;margin:0;color:#45594b;font-size:12px;font-weight:700}
+.tenant-room-address{margin:7px 0 0 23px;color:#7a877d;font-size:11px;line-height:1.55}
+.tenant-room-price{margin:24px 0;color:#2f7042;font-size:22px;font-weight:800}
+.tenant-room-price span{margin-left:5px;color:#879188;font-size:11px;font-weight:500}
+.tenant-room-quick-facts{display:grid;gap:0;border-top:1px solid #e5e9e2}
+.tenant-room-quick-facts div{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #e5e9e2}
+.tenant-room-quick-facts span{color:#7d8980;font-size:10px}
+.tenant-room-quick-facts strong{color:#405247;font-size:10px;text-align:right}
+.tenant-room-thumbnails{display:flex;gap:8px;overflow-x:auto;padding:12px 0 0}
+.tenant-room-thumbnails button{width:78px;height:58px;flex:0 0 78px;overflow:hidden;padding:0;border:2px solid transparent;border-radius:5px;background:#eef1eb;cursor:pointer}
+.tenant-room-thumbnails button.selected{border-color:#507653}
+.tenant-room-thumbnails img{width:100%;height:100%;object-fit:cover}
+.tenant-room-section{margin-top:19px;padding:18px 19px;border:1px solid #dfe4db;border-radius:8px;background:rgba(252,253,249,.92)}
+.tenant-room-section h3{margin:0 0 13px;color:#2b3b31;font-size:13px}
+.tenant-room-description,.tenant-room-muted{margin:0;color:#718077;font-size:11px;line-height:1.75;white-space:pre-line}
+.tenant-room-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.tenant-room-detail-grid .tenant-room-section{margin-top:13px}
+.tenant-room-list{margin:0;padding:0;list-style:none}
+.tenant-room-list li{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;padding:10px 0;border-bottom:1px solid #e8ebe5;color:#596b5f;font-size:11px}
+.tenant-room-list li:last-child{border-bottom:0}
+.tenant-room-list li strong{color:#43554a;font-size:10px;text-align:right}
+.tenant-room-list li small{display:block;margin-top:4px;color:#929b94;font-size:9px}
+.tenant-room-video-section{margin-top:13px}
+.tenant-room-video-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:13px}
+.tenant-room-video-grid figure{overflow:hidden;margin:0;border:1px solid #e2e8e1;border-radius:6px;background:#f8faf6}
+.tenant-room-video-grid video{display:block;width:100%;max-height:300px;background:#17241d}
+.tenant-room-video-grid figcaption{padding:9px;color:#647368;font-size:10px;overflow-wrap:anywhere}
+.tenant-room-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:13px;padding:15px 18px;border:1px solid #dfe4db;border-radius:7px;background:#fbfcf8}
+.tenant-room-actions div{display:grid;gap:5px}
+.tenant-room-actions strong{color:#3a4d3e;font-size:11px}
+.tenant-room-actions span{color:#879188;font-size:10px}
+.tenant-room-empty{display:grid;justify-items:center;padding:60px 24px;border:1px dashed #cbd4c8;border-radius:9px;color:#718077;background:rgba(252,253,249,.72);text-align:center}
+.tenant-room-empty-icon{display:grid;width:48px;height:48px;place-items:center;border-radius:50%;color:#537558;background:#eaf1e7}
+.tenant-room-empty h2{margin:16px 0 7px;color:#25382d;font-size:18px}
+.tenant-room-empty p{max-width:480px;margin:0;color:#77857b;font-size:11px;line-height:1.7}
+.tenant-room-empty>a{margin-top:19px;padding:10px 16px;border-radius:5px;color:#fff;background:#416d4a;font-size:11px;font-weight:700;text-decoration:none}
+.tenant-room-lightbox{position:fixed;inset:0;z-index:1020;display:flex;align-items:center;justify-content:center;padding:50px;background:#08111eef}
+.tenant-room-lightbox figure{margin:0;max-width:min(100%,1100px);text-align:center}
+.tenant-room-lightbox img{display:block;max-width:100%;max-height:80vh;object-fit:contain}
+.tenant-room-lightbox figcaption{padding:12px;color:#fff;font-size:12px}
+.tenant-room-lightbox-close,.tenant-room-lightbox-arrow{position:absolute;display:grid;width:42px;height:42px;place-items:center;border:0;border-radius:50%;color:#fff;background:#ffffff20;cursor:pointer}
+.tenant-room-lightbox-close{top:17px;right:17px}
+.tenant-room-lightbox-arrow.previous{left:18px}
+.tenant-room-lightbox-arrow.next{right:18px}
+@media(max-width:850px){.tenant-room-overview{grid-template-columns:1fr}.tenant-room-hero,.tenant-room-hero-placeholder,.tenant-room-hero-image,.tenant-room-hero-image img{min-height:300px;height:300px}.tenant-room-summary{padding:22px}}
+@media(max-width:600px){.tenant-room-page .work-heading{align-items:flex-start;flex-direction:column}.tenant-room-overview{grid-template-columns:minmax(0,1fr)}.tenant-room-hero,.tenant-room-hero-placeholder,.tenant-room-hero-image,.tenant-room-hero-image img{min-height:230px;height:230px}.tenant-room-summary{padding:18px}.tenant-room-summary h2{font-size:23px}.tenant-room-detail-grid{grid-template-columns:minmax(0,1fr);gap:0}.tenant-room-detail-grid .tenant-room-section{margin-top:11px}.tenant-room-actions{align-items:flex-start;flex-direction:column}.tenant-room-lightbox{padding:38px 44px}.tenant-room-lightbox-arrow.previous{left:7px}.tenant-room-lightbox-arrow.next{right:7px}}
